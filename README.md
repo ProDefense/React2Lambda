@@ -6,7 +6,7 @@ Exploit tool for CVE-2025-55182 (React2Shell) in Next.js Lambda deployments. Exp
 
 Traditional React2Shell scanners miss vulnerable serverless deployments. While Webpack bundling prevents traditional RCE (shell access), the vulnerability enables SSJI that can exfiltrate AWS credentials—often more dangerous than shell access in cloud environments.
 
-For full research details, see: **[Expanding React2Shell for Serverless Lambda Functions](https://platformsecurity.com/blog/react2shell-for-lambdas)**
+For full research details, see: **[Expanding React2Shell for Serverless Lambda Functions](https://www.prodefense.io/blog/react2shell-for-lambdas)**
 
 ## Requirements
 
